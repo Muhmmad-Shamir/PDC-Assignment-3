@@ -9,6 +9,7 @@ public class RankDemo {
         int rank = MPI.COMM_WORLD.Rank();
         int size = MPI.COMM_WORLD.Size();
 
+        System.out.println("My rank is " + rank + " out of " + size);
 
     }
 }
