@@ -1,10 +1,11 @@
 package q1;
 
+import mpi.MPI;
+
 public class RankDemo {
+    public static void main(String[] args) throws Exception {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-	}
 
+    }
 }
