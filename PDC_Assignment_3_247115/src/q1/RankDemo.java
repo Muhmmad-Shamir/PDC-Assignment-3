@@ -11,5 +11,6 @@ public class RankDemo {
 
         System.out.println("My rank is " + rank + " out of " + size);
 
+        MPI.Finalize();
     }
 }
