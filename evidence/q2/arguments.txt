@@ -1,0 +1,3 @@
+MPJ Express (0.44) is started in the multicore configuration
+rank=0 args=[alpha, two words] maxHeapMiB=3924
+rank=1 args=[alpha, two words] maxHeapMiB=3924
