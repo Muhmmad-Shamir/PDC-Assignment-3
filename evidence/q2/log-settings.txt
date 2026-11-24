@@ -1,0 +1,3 @@
+mpjexpress.mpjdaemon.loglevel=OFF
+mpjexpress.mpjrun.loglevel=OFF
+mpjexpress.mpi.loglevel=OFF
