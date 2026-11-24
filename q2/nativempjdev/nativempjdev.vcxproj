@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64"><Configuration>Release</Configuration><Platform>x64</Platform></ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{18DFADA0-3A9F-4F25-A9EE-17FC1756CE95}</ProjectGuid>
+    <RootNamespace>nativempjdev</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup>
+    <WrapperDir>$(MPJ_HOME)\src\mpjdev\natmpjdev\lib</WrapperDir>
+    <MSMPI_INC Condition="'$(MSMPI_INC)'==''">$(MSBuildProgramFiles32)\Microsoft SDKs\MPI\Include</MSMPI_INC>
+    <MSMPI_LIB64 Condition="'$(MSMPI_LIB64)'==''">$(MSBuildProgramFiles32)\Microsoft SDKs\MPI\Lib\x64</MSMPI_LIB64>
+    <OutDir>$(ProjectDir)build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(JAVA_HOME)\include;$(JAVA_HOME)\include\win32;$(MSMPI_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <Link><AdditionalLibraryDirectories>$(MSMPI_LIB64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories><AdditionalDependencies>msmpi.lib;%(AdditionalDependencies)</AdditionalDependencies></Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="$(WrapperDir)\mpjdev_natmpjdev_Comm.c" />
+    <ClCompile Include="$(WrapperDir)\mpjdev_natmpjdev_Group.c" />
+    <ClCompile Include="$(WrapperDir)\mpjdev_natmpjdev_Intercomm.c" />
+    <ClCompile Include="$(WrapperDir)\mpjdev_natmpjdev_Intracomm.c" />
+    <ClCompile Include="$(WrapperDir)\mpjdev_natmpjdev_NativeRecvRequest.c" />
+    <ClCompile Include="$(WrapperDir)\mpjdev_natmpjdev_NativeSendRequest.c" />
+    <ClInclude Include="$(WrapperDir)\*.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <Target Name="DeployWrapper" AfterTargets="Build">
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(MPJ_HOME)\lib" SkipUnchangedFiles="true" />
+  </Target>
+</Project>
