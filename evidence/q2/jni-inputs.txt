@@ -1,0 +1,16 @@
+MPJ Express 0.44 JNI wrapper inputs
+Directory under MPJ_HOME: src/mpjdev/natmpjdev/lib
+
+mpjdev_natmpjdev_Comm.c
+mpjdev_natmpjdev_Comm.h
+mpjdev_natmpjdev_Group.c
+mpjdev_natmpjdev_Group.h
+mpjdev_natmpjdev_Intercomm.c
+mpjdev_natmpjdev_Intercomm.h
+mpjdev_natmpjdev_Intracomm.c
+mpjdev_natmpjdev_Intracomm.h
+mpjdev_natmpjdev_NativeRecvRequest.c
+mpjdev_natmpjdev_NativeRecvRequest.h
+mpjdev_natmpjdev_NativeSendRequest.c
+mpjdev_natmpjdev_NativeSendRequest.h
+mpjdev_natmpjdev_shared.h
