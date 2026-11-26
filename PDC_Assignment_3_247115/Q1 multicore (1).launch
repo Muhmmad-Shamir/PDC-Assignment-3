@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="mpj_express_debugger.mpjExpress">
+    <booleanAttribute key="org.eclipse.debug.core.ATTR_FORCE_SYSTEM_CONSOLE_ENCODING" value="false"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/PDC_Assignment_3_247115/src/q3/PingPong.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.debug.core.terminate.timestamp" value="1795527922499"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_SHOW_CODEDETAILS_IN_EXCEPTION_MESSAGES" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="q3.PingPong"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="PDC_Assignment_3_247115"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MPJ_DEV" value="multicore"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MPJ_HOME" value="C:\Users\shame\Documents\Codex\2026-11-23\new-chat-2\Eclipse-MPJ\mpj-v0_44"/>
+    <intAttribute key="org.eclipse.jdt.launching.MPJ_NP" value="2"/>
+    <mapAttribute key="org.eclipse.jdt.launching.MPJ_PARAMETERS"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="PDC_Assignment_3_247115"/>
+</launchConfiguration>
