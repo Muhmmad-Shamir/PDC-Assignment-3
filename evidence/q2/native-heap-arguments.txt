@@ -1,0 +1,8 @@
+Starting process <0> on on <Muhmmad_Shamir>
+Starting process <2> on on <Muhmmad_Shamir>
+Starting process <1> on on <Muhmmad_Shamir>
+Starting process <3> on on <Muhmmad_Shamir>
+rank=2 args=[hello] maxHeapMiB=128
+rank=3 args=[hello] maxHeapMiB=128
+rank=0 args=[hello] maxHeapMiB=128
+rank=1 args=[hello] maxHeapMiB=128
