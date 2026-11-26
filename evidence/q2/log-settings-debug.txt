@@ -1,0 +1,3 @@
+mpjexpress.mpjdaemon.loglevel=DEBUG
+mpjexpress.mpjrun.loglevel=DEBUG
+mpjexpress.mpi.loglevel=DEBUG
