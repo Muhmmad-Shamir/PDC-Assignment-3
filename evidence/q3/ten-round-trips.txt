@@ -1,0 +1,43 @@
+MPJ Express (0.44) is started in the multicore configuration
+Rank 1 is ready out of 2 processes.
+Rank 0 is ready out of 2 processes.
+Rank 0 sent 0
+Rank 1 received 0
+Rank 1 sent back 1
+Rank 0 received back 1
+Rank 0 sent 1
+Rank 1 received 1
+Rank 0 received back 2
+Rank 1 sent back 2
+Rank 0 sent 2
+Rank 1 received 2
+Rank 0 received back 3
+Rank 1 sent back 3
+Rank 1 received 3
+Rank 0 sent 3
+Rank 1 sent back 4
+Rank 0 received back 4
+Rank 0 sent 4
+Rank 1 received 4
+Rank 1 sent back 5
+Rank 0 received back 5
+Rank 0 sent 5
+Rank 1 received 5
+Rank 1 sent back 6
+Rank 0 received back 6
+Rank 0 sent 6
+Rank 1 received 6
+Rank 1 sent back 7
+Rank 0 received back 7
+Rank 1 received 7
+Rank 0 sent 7
+Rank 0 received back 8
+Rank 1 sent back 8
+Rank 0 sent 8
+Rank 1 received 8
+Rank 1 sent back 9
+Rank 0 received back 9
+Rank 0 sent 9
+Rank 1 received 9
+Rank 0 received back 10
+Rank 1 sent back 10
